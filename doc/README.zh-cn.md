@@ -144,7 +144,7 @@ log and help options:
 
 TinyFecVPN支持UDPspeeder的所有选项，具体请看UDPspeeder的repo：
 
-https://github.com/wangyu-/UDPspeeder
+https://github.com/wangyu-/UDPspeeder/blob/master/doc/README.zh-cn.md#命令选项
 
 ### tinyFecVPN的新增选项
 
@@ -168,6 +168,10 @@ TinyFecVPN server只接受一个client的连接，后连接的client会把新的
 
 如果开启了--keep-reconnect，client在连接断开或者被挤掉以后会尝试重新获得连接。
 
+# 使用经验
+
+https://github.com/wangyu-/tinyFecVPN/wiki/使用经验
+
 # 性能测试(侧重吞吐量)
 
 server 在 vulr 日本，CPU2.4GHz,内存 512mb。client 在搬瓦工美国，CPU 2.0GHZ,内存 96mb。在网路间额外模拟了10%的丢包，用于加重FEC的负担。
@@ -187,9 +191,7 @@ iperf3 -c 10.22.22.1 -P10
 
 ![image](/images/performance2.PNG)
 
-# 使用经验
 
-https://github.com/wangyu-/tinyFecVPN/wiki/使用经验
 
 # 限制
 
